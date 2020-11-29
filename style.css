@@ -1,0 +1,66 @@
+.header{
+    border: solid lightcoral;
+    background-color: aliceblue;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1{
+    color: lightcoral;
+    padding: 25px;
+    border: dotted;
+    border-width: 5px;
+    font-family: cursive;
+}
+
+.header p{
+    color: darkgoldenrod;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: larger;
+    font-family: cursive;
+    text-align: center;
+}
+
+.images{
+    background-color: beige;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.imageItem{
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.animalPic{
+    border: solid;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 28%;
+    margin-right: 28%
+}
+
+.animalPic:hover{
+    transform: scale(1.2);
+}
+
+.animalInfo p{
+    color: lightcoral;
+    margin-left: 43%;
+    font-size: x-large;
+    font-family: cursive;
+}
+
+.animalInfo ol{
+    color: darkgoldenrod;
+    font-family: cursive;
+    font-size: large;
+}
+
